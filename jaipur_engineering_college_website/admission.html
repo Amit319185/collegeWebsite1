@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaipur Engineering College | Admission Enquiry</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fa; color: #202b3c; }
+        header { background: #12345a; color: white; padding: 22px; text-align: center; }
+        nav { background: #e5edf6; padding: 12px; text-align: center; }
+        nav a { color: #12345a; margin: 0 12px; font-weight: bold; text-decoration: none; }
+        main { max-width: 950px; margin: auto; padding: 24px; }
+        form { background: white; padding: 20px; }
+        label { display: block; margin-top: 14px; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 9px; margin-top: 5px; box-sizing: border-box; }
+        button { margin-top: 16px; padding: 10px 18px; background: #12345a; color: white; border: 0; }
+        footer { background: #12345a; color: white; text-align: center; padding: 16px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jaipur Engineering College</h1>
+        <p>Admission Enquiry & Contact</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="campus.html">Campus Life</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission Enquiry</a>
+    </nav>
+
+    <main>
+        <h2>Send an Enquiry</h2>
+        <p>Fill in the form below to prepare an admission enquiry. This HTML-only demo does not send or store your details; a real submission needs a backend or form service.</p>
+
+        <form action="#" method="get">
+            <label for="student-name">Full name</label>
+            <input type="text" id="student-name" name="student-name" autocomplete="name" required>
+
+            <label for="student-email">Email address</label>
+            <input type="email" id="student-email" name="student-email" autocomplete="email" required>
+
+            <label for="student-phone">Phone number</label>
+            <input type="tel" id="student-phone" name="student-phone" autocomplete="tel" required>
+
+            <label for="study-area">Interested study area</label>
+            <select id="study-area" name="study-area" required>
+                <option value="">Choose an option</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="electronics">Electronics</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="other">Other / Not sure</option>
+            </select>
+
+            <label for="message">Your question</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Prepare Enquiry</button>
+        </form>
+
+        <h2>Contact Information</h2>
+        <p>For this student project, add the college's verified address, official phone number and official email here.</p>
+        <p>Email: <a href="mailto:admissions@example.com">admissions@example.com (sample only — replace with official email)</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jaipur Engineering College Website — Student HTML Mini Project</p>
+    </footer>
+</body>
+</html>
